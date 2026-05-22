@@ -1,26 +1,53 @@
 {
   "name": "@kvar/auth-protocol",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Reusable Express authentication protocol with MFA, refresh rotation, and password reset support.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "config",
+    "controllers",
+    "middleware",
+    "queries",
+    "routes",
+    "utils",
+    "validators",
+    "examples",
+    "transporter.js"
+  ],
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon examples/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "SHOAIB MULLA",
   "license": "ISC",
   "type": "module",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
-    "crypto": "^1.0.1",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "nodemailer": "^8.0.7",
-    "nodemon": "^3.1.14",
     "pg": "^8.21.0",
     "zod": "^4.4.3"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvdoshi/auth-protocol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rvdoshi/auth-protocol/issues"
+  },
+  "homepage": "https://github.com/rvdoshi/auth-protocol#readme"
 }
