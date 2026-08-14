@@ -1,5 +1,5 @@
 {
-  "name": "@kvartech/auth-protocol",
+  "name": "@kvar/auth-protocol",
   "version": "1.0.1",
   "description": "Reusable Express authentication protocol with MFA, refresh rotation, and password reset support.",
   "main": "src/index.js",
