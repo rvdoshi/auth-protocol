@@ -48,7 +48,7 @@
     "nodemon": "^3.1.14"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "repository": {
     "type": "git",
