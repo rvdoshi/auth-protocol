@@ -1,3 +1,11 @@
+
+package.json
+
+Page
+1
+/
+1
+100%
 {
   "name": "@kvar/auth-protocol",
   "version": "1.0.1",
@@ -19,11 +27,18 @@
     "transporter.js"
   ],
   "scripts": {
-    "dev": "nodemon examples/app.js"
+    "dev": "nodemon examples/app.js",
+    "test": "echo \"No automated tests yet\" && exit 0"
   },
-  "keywords": [],
-  "author": "SHOAIB MULLA",
-  "license": "ISC",
+  "keywords": [
+    "authentication",
+    "express",
+    "jwt",
+    "mfa",
+    "auth"
+  ],
+  "author": "Kvartech",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "bcrypt": "^6.0.0",
@@ -51,3 +66,4 @@
   },
   "homepage": "https://github.com/rvdoshi/auth-protocol#readme"
 }
+Displaying package.json.
